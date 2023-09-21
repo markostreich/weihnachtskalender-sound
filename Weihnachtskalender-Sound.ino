@@ -2,10 +2,11 @@
 #include "Mp3Player.h"
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
+  initMp3Player();
 }
 
 void loop() {
-  const byte key = checkButton(); // Knopf auslesen
-  makeSound(key); // Ton spielen
+  const byte key = checkButton();  // Knopf auslesen
+  makeSound(key);                  // Ton spielen
 }
