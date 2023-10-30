@@ -1,7 +1,7 @@
 #ifndef BUTTON_MATRIX_H
 #define BUTTON_MATRIX_H
 
-#include <Keypad.h> //Bibliothek zum auslesen der Matrix Tastatur
+#include <Keypad.h> //Bibliothek zum Auslesen der Matrix Tastatur
 
 //Definieren der Zeilen und Spalten.
 const byte COLS = 5;
